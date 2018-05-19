@@ -42,3 +42,21 @@ container, perfil, img {
 
 container, resumen {
   font-size: 10px; }
+
+.vc_column_container {
+  width: 100%; }
+
+@media (min-width: 768px) {
+  .vc_col-sm-4 {
+    width: 33.33%;
+    float: left; } }
+
+.section-title div {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 0px auto;
+  background-color: #cccccc;
+  border-radius: 100%;
+  -webkit-border-radius: 100%; }
+  .section-title div span:before {
+    margin-top: 27px; }
