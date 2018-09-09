@@ -6,6 +6,8 @@ body {
   background-color: #efefef;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif; }
+  body lema {
+    font-size: 26px; }
 
 header {
   background-color: #333;
@@ -41,15 +43,18 @@ container, perfil, img {
     font-size: 20px; }
 
 container, resumen {
+  text-decoration: none;
   font-size: 10px; }
 
 .vc_column_container {
-  width: 100%; }
+  width: 100%;
+  text-decoration: none; }
 
 @media (min-width: 768px) {
   .vc_col-sm-4 {
     width: 33.33%;
-    float: left; } }
+    float: left;
+    text-decoration: none; } }
 
 .section-title div {
   width: 80px;

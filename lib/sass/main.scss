@@ -6,6 +6,9 @@ body{
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
 
+	lema{
+		font-size: 26px;
+	}
 }
 header{
 	background-color: #333;
@@ -48,7 +51,9 @@ header{
 container, perfil
 	{
 		width: 180px;
-		display: 0 auto;}
+		display: 0 auto;
+			
+	}
 
 		container, perfil, img
 		{
@@ -66,15 +71,18 @@ container, perfil
 
 		}	}
 container,  resumen{
+	text-decoration: none;	
 	font-size: 10px;
 }
  .vc_column_container {
     width: 100%;
+    text-decoration: none;
 }
  .vc_col-sm-4{
  	@media (min-width: 768px){
  		width: 33.33%;
  		    float: left;
+ 		    text-decoration: none;
  	}
  }
  .section-title div{
